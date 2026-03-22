@@ -39,7 +39,11 @@
       "Bash(xargs cat:*)",
       "Bash(git add:*)",
       "Bash(git check-ignore:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git rm:*)",
+      "Bash(git remote:*)",
+      "Bash(git push:*)",
+      "Bash(npm init:*)"
     ]
   },
   "enableAllProjectMcpServers": true,

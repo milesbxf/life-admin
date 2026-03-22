@@ -2,7 +2,7 @@
   "mcpServers": {
     "cronometer": {
       "command": "uvx",
-      "args": ["cronometer-mcp==2.0.3"],
+      "args": ["--from", "cronometer-mcp==2.0.3", "cronometer-mcp"],
       "env": {
         "CRONOMETER_USERNAME": "${CRONOMETER_USERNAME}",
         "CRONOMETER_PASSWORD": "${CRONOMETER_PASSWORD}"
