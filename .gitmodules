@@ -1,0 +1,7 @@
+[submodule "tools/whoop-mcp"]
+	path = tools/whoop-mcp
+	url = https://github.com/milesbxf/whoop-mcp-server-claude
+	branch = milesbxf-main
+[submodule "tools/apple-events-mcp"]
+	path = tools/apple-events-mcp
+	url = https://github.com/FradSer/mcp-server-apple-events
