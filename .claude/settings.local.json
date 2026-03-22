@@ -43,7 +43,11 @@
       "Bash(git rm:*)",
       "Bash(git remote:*)",
       "Bash(git push:*)",
-      "Bash(npm init:*)"
+      "Bash(npm init:*)",
+      "Bash(find /Users/milesbryant/src/github.com/milesbxf/life-admin/.claude -type f -name *.json -o -name *.md -o -name *.js)",
+      "Bash(git:*)",
+      "Bash(find /Users/milesbryant/.claude -name *.md -type f)",
+      "Bash(cat:*)"
     ]
   },
   "enableAllProjectMcpServers": true,
