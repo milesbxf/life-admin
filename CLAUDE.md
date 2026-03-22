@@ -21,12 +21,12 @@ Personal productivity repo for Miles. Connects Claude to health, nutrition, reci
 
 ## Project-local MCP servers
 
-Configured in `.mcp.json`. Credentials already filled in.
+Configured in `.mcp.json`. Credentials loaded from `.env` via direnv.
 
 ### Cronometer ✅
 Reads food logs, macros, micros, biometrics, fasting, and diary entries.
 
-- **Package:** `cronometer-mcp` (Python, via `uvx`)
+- **Package:** `cronometer-mcp==2.0.3` (Python, via `uvx`)
 - **Requires:** Cronometer Gold account
 - **Caveat:** Uses Cronometer's internal GWT-RPC protocol (no public API). May break when Cronometer pushes a web update — if auth fails, the GWT permutation hash in the package needs updating.
 - **Tools:** `get_food_log`, `get_daily_nutrition`, `get_micronutrients`, `get_recent_biometrics`, `add_food_entry`, `search_foods`, and more
@@ -34,7 +34,7 @@ Reads food logs, macros, micros, biometrics, fasting, and diary entries.
 ### Paprika ✅
 Read, create, and update recipes in Paprika 3. Does **not** support Paprika's built-in grocery list feature.
 
-- **Package:** `paprika-mcp` installed via pipx from GitHub (`sandordaroczi/paprika-mcp-python-server`) — not on PyPI. Pinned to commit `f34e3c0af625853ffae6cefde8330651dd7af52e`. To reinstall at this commit: `pipx install "git+https://github.com/sandordaroczi/paprika-mcp-python-server.git@f34e3c0af625853ffae6cefde8330651dd7af52e"`
+- **Package:** `paprika-mcp` installed via pipx from GitHub (`sandordaroczi/paprika-mcp-python-server`) — not on PyPI. Pinned to commit `f34e3c0af625853ffae6cefde8330651dd7af52e`. To reinstall: `pipx install "git+https://github.com/sandordaroczi/paprika-mcp-python-server.git@f34e3c0af625853ffae6cefde8330651dd7af52e"`
 - **Binary:** `/Users/milesbryant/.local/bin/paprika-mcp`
 - **Env vars:** `PAPRIKA_USERNAME`, `PAPRIKA_PASSWORD`
 - **Tools:** `list_recipes`, `search_recipes`, `read_recipe`, `create_recipe`, `update_recipe`, `filter_recipes_by_ingredient`, `filter_recipes_by_time`
@@ -42,9 +42,8 @@ Read, create, and update recipes in Paprika 3. Does **not** support Paprika's bu
 ### WHOOP ✅
 Full access to WHOOP v2 API: recovery, sleep, HRV, workouts, cycles.
 
-- **Built from:** `tools/whoop-mcp/` (cloned from `github.com/nissand/whoop-mcp-server-claude`)
-- **Bug fix applied:** Added `state` parameter to OAuth URL generation in `src/mcp-server.ts` (upstream missing this, causes auth failure)
-- **Known vuln:** 1 high severity issue in `axios` dependency. `npm audit fix` resolves the non-breaking ones; the remaining one requires `--force` (breaking change). Monitor for upstream fix.
+- **Built from:** `tools/whoop-mcp/` — git submodule pointing to `github.com/milesbxf/whoop-mcp-server-claude`, branch `milesbxf-main`
+- **Includes:** upstream PRs #5 (state param fix) and #6 (auto token refresh, security hardening, MCP SDK upgrade, 71 tests)
 - **Auth flow (each new session):**
   1. Ask Claude to call `whoop-get-authorization-url`
   2. Visit the URL in browser and authorise
@@ -56,21 +55,20 @@ Full access to WHOOP v2 API: recovery, sleep, HRV, workouts, cycles.
 ### Spoonacular ✅
 Recipe discovery and ingredient-based search. Complements Paprika (saved recipes) — use for finding new recipes.
 
-- **Package:** `spoonacular-mcp` via npx
+- **Package:** `spoonacular-mcp@1.0.0` installed locally in `node_modules/`, SHA512-pinned via `package-lock.json`
 - **Free tier:** 150 requests/day
 - **Tools:** `search_recipes` (with vegetarian/cuisine/ingredient filters), `find_recipes_by_ingredients`, `get_recipe_information`, `analyze_nutrition`, `get_random_recipes`
 
 ### Weather ✅
 Global forecasts using Open-Meteo (UK Met Office UKMO UKV model at 2km, updated hourly).
 
-- **Package:** `@dgahagan/weather-mcp` via npx — no API key needed
+- **Package:** `@dangahagan/weather-mcp@1.6.1` installed locally in `node_modules/`, SHA512-pinned via `package-lock.json` — no API key needed
 - **Default locations:** Barnet (home) and Moorgate (work)
 
-### Apple Events ⚠️ (build pending)
+### Apple Events ✅
 Native integration with Apple Reminders and Calendar via EventKit.
 
-- **Built from:** `tools/apple-events-mcp/` (cloned from `github.com/fradser/mcp-server-apple-events`)
-- **Status:** Built and working ✅
+- **Built from:** `tools/apple-events-mcp/` — git submodule pointing to upstream `github.com/FradSer/mcp-server-apple-events` v1.4.0
 - **Config in `.mcp.json`:** `node tools/apple-events-mcp/bin/run.cjs`
 - **If binary needs rebuilding** (e.g. after macOS update), run outside Nix shell — Nix injects old SDKROOT which breaks compilation:
   ```bash
@@ -86,15 +84,21 @@ Native integration with Apple Reminders and Calendar via EventKit.
 
 ## Setup checklist
 
-- [x] Cronometer credentials filled in
-- [x] Paprika credentials filled in and working
-- [x] WHOOP developer app registered, server built, credentials filled in
-- [ ] Apple Events MCP: reinstall Xcode CLT, then build Swift binary (see above)
+- [x] Cronometer credentials in `.env`
+- [x] Paprika credentials in `.env` and working
+- [x] WHOOP developer app registered, submodule built, credentials in `.env`
+- [x] Apple Events MCP Swift binary built
+- [x] Spoonacular API key in `.env`
+- [x] All credentials referenced via `${VAR}` in `.mcp.json` — never committed
+- [x] npx MCP deps pinned with SHA512 via `package-lock.json`
 
 ## Dev environment
 
 - **Nix shell:** `shell.nix` provides `uv`, `pipx`, `nodejs`
-- **direnv:** `.envrc` runs `use nix` — shell loads automatically on `cd`
+- **direnv:** `.envrc` runs `use nix` + `dotenv` — shell and credentials load automatically on `cd`
+- **Secrets:** stored in `.env` (gitignored). Copy `.env.example` and fill in to set up on a new machine.
+- **Submodules:** after cloning, run `git submodule update --init` to pull tool repos
+- **npm deps:** run `npm ci` to install Spoonacular/Weather MCP packages from lockfile
 - **Note:** Swift compilation must happen outside the Nix shell (Nix injects old SDKROOT that conflicts with system Swift compiler)
 
 ## Global MCPs also available
