@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "cronometer": {
+      "command": "uvx",
+      "args": ["cronometer-mcp"],
+      "env": {
+        "CRONOMETER_USERNAME": "YOUR_EMAIL",
+        "CRONOMETER_PASSWORD": "YOUR_PASSWORD"
+      }
+    },
+    "paprika": {
+      "command": "uvx",
+      "args": ["paprika-3-mcp"],
+      "env": {
+        "PAPRIKA_EMAIL": "YOUR_EMAIL",
+        "PAPRIKA_PASSWORD": "YOUR_PASSWORD"
+      }
+    },
+    "whoop": {
+      "command": "node",
+      "args": ["tools/whoop-mcp/dist/index.js"],
+      "env": {
+        "WHOOP_CLIENT_ID": "YOUR_CLIENT_ID",
+        "WHOOP_CLIENT_SECRET": "YOUR_CLIENT_SECRET",
+        "WHOOP_REDIRECT_URI": "http://localhost:3000/callback"
+      }
+    }
+  }
+}
