@@ -1,0 +1,52 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__cronometer__get_daily_nutrition",
+      "mcp__whoop__whoop-get-authorization-url",
+      "mcp__whoop__whoop-exchange-code-for-token",
+      "mcp__whoop__whoop-get-user-profile",
+      "mcp__whoop__whoop-get-recovery-collection",
+      "mcp__whoop__whoop-get-sleep-collection",
+      "mcp__whoop__whoop-set-access-token",
+      "mcp__perplexity__perplexity_search",
+      "Bash(pipx run:*)",
+      "mcp__paprika__list_recipes",
+      "mcp__apple-events__reminders_lists",
+      "mcp__apple-events__calendar_calendars",
+      "Bash(git clone:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(/usr/bin/swiftc --version)",
+      "Bash(xcrun --show-sdk-path)",
+      "Read(//Library/Developer/CommandLineTools/SDKs/**)",
+      "Read(//Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/**)",
+      "Bash(SWIFT_SRC=\"tools/apple-events-mcp/src/swift/EventKitCLI.swift\")",
+      "Bash(PLIST=\"tools/apple-events-mcp/src/swift/Info.plist\")",
+      "Bash(OUT=\"tools/apple-events-mcp/bin/EventKitCLI\")",
+      "Bash(SDK=\"/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk\")",
+      "Bash(__NEW_LINE_4c7cfe6236d10860__ /usr/bin/swiftc -sdk \"$SDK\" -o \"$OUT\" \"$SWIFT_SRC\" -framework EventKit -framework Foundation -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __info_plist -Xlinker \"$PLIST\")",
+      "mcp__cronometer__search_foods",
+      "mcp__spoonacular__search_recipes",
+      "mcp__weather__get_current_conditions",
+      "mcp__weather__search_location",
+      "mcp__weather__get_forecast",
+      "Bash(npm audit:*)",
+      "Bash(pip show:*)",
+      "Bash(pipx runpip:*)",
+      "Bash(pip3 index:*)",
+      "Read(//Users/milesbryant/.local/share/pipx/venvs/paprika-mcp/**)",
+      "Read(//Users/milesbryant/.local/share/**)",
+      "Bash(xargs cat:*)",
+      "Bash(git add:*)",
+      "Bash(git check-ignore:*)",
+      "Bash(git commit:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "cronometer",
+    "paprika",
+    "whoop",
+    "apple-events"
+  ]
+}
