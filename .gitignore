@@ -1,3 +1,4 @@
+node_modules/
 tools/whoop-mcp/node_modules/
 tools/apple-events-mcp/node_modules/
 tools/whoop-mcp/.env

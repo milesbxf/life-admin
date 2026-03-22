@@ -17,15 +17,15 @@
       }
     },
     "spoonacular": {
-      "command": "npx",
-      "args": ["-y", "spoonacular-mcp@1.0.0"],
+      "command": "node",
+      "args": ["node_modules/.bin/spoonacular-mcp"],
       "env": {
         "SPOONACULAR_API_KEY": "${SPOONACULAR_API_KEY}"
       }
     },
     "weather": {
-      "command": "npx",
-      "args": ["-y", "@dangahagan/weather-mcp@1.6.1"]
+      "command": "node",
+      "args": ["node_modules/.bin/weather-mcp"]
     },
     "apple-events": {
       "command": "node",
