@@ -2,10 +2,10 @@
 # Health & Fitness
 
 ## Goals
-- Maintain 120g+ protein daily
-- 8hrs sleep average
-- Weekly WHOOP recovery trend above 70%
+- 7hrs sleep weekly average
+- Mental health: to be defined
 
 ## Tasks
+- [ ] Define health goals more clearly — protein target, mental health tracking approach
 
 ## Notes
