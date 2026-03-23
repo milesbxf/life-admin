@@ -6,3 +6,7 @@ Items here get processed during /review into areas, projects, or resources.
 ## Unprocessed
 
 - [ ] Someday/maybe: convert all 2FA from Authy to 1Password/Apple passkeys
+- [ ] Ask Beth about dog sitting Toto for Friday 27th March and Thursday 2nd April @due(2026-03-24) @reminder
+- [ ] Book cinema tickets and find nice restaurant (depends on dog care booking) @due(2026-03-27)
+- [ ] Research therapy options via work private health insurance @due(2026-03-25) @reminder
+- [ ] Write up what I need for initial therapy consult @due(2026-03-25)

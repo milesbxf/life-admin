@@ -16,6 +16,7 @@ London, UK (Barnet home / Moorgate work). Vegetarian. WHOOP for fitness tracking
 | `/health` | Health dashboard: WHOOP recovery/sleep/HRV + Cronometer nutrition + biometrics. |
 | `/review` | Weekly review: health summary, project progress, inbox processing, meal planning. |
 | `/meal-plan` | Plan next week's meals from Paprika recipes, meeting nutrition targets. |
+| `/research` | Research any question via Perplexity — facts, local services, DIY, comparisons. |
 | `/grocery` | Generate grocery list from meal plan → Apple Reminders "Grocery" list. |
 
 ## Directory structure
