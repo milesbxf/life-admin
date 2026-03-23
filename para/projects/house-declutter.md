@@ -12,7 +12,7 @@
 - [ ] Sort kitchen
 - [ ] Sort master bedroom
 - [ ] Sort Miles office
-- [ ] Sort Shubheksha office
+- [ ] Sort Shubheksha office → see [shubheksha-office-declutter.md](shubheksha-office-declutter.md)
 - [ ] Sort second floor guest room
 - [ ] Sort second floor storage
 - [ ] Sort ground floor bathroom
