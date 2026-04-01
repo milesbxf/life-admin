@@ -18,6 +18,10 @@ London, UK (Barnet home / Moorgate work). Vegetarian. WHOOP for fitness tracking
 | `/meal-plan` | Plan next week's meals from Paprika recipes, meeting nutrition targets. |
 | `/research` | Research any question via Perplexity — facts, local services, DIY, comparisons. |
 | `/grocery` | Generate grocery list from meal plan → Apple Reminders "Grocery" list. |
+| `/find-docs` | Search Paperless for documents matching a query and summarise findings. |
+| `/paperless-inbox` | Process Paperless inbox — apply tags, correspondent, type, and clean titles. |
+| `/paperless-topic` | Pull together all Paperless documents related to a topic. |
+| `/tax-docs` | Find and summarise all tax-relevant documents for a given tax year. |
 
 ## Directory structure
 
