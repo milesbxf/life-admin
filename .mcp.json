@@ -31,6 +31,14 @@
       "command": "node",
       "args": ["tools/apple-events-mcp/bin/run.cjs"]
     },
+    "paperless": {
+      "command": "node",
+      "args": ["tools/paperless-mcp/dist/index.js"],
+      "env": {
+        "PAPERLESS_URL": "${PAPERLESS_URL}",
+        "PAPERLESS_TOKEN": "${PAPERLESS_TOKEN}"
+      }
+    },
     "whoop": {
       "command": "node",
       "args": ["tools/whoop-mcp/dist/index.js"],

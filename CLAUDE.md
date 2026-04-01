@@ -49,6 +49,7 @@ DEV.md          Setup, dev environment, MCP server details
 | perplexity | Web search and research (global) |
 | google-calendar | Google Calendar (global) |
 | notion | Notion pages/databases — mainly work (global) |
+| paperless | Paperless-ngx documents — search, upload, tag, retrieve content |
 
 ## WHOOP auth (required each new session)
 

@@ -18,6 +18,12 @@ Office doubles as the base for Fluffmallow (cards & stationery business). Fulfil
 - [ ] Windowsill 1
 - [ ] Windowsill 2
 
+## Misc tasks
+
+- [ ] Cash in coins → see [cashing-in-coins-uk.md](../resources/cashing-in-coins-uk.md)
+- [ ] Destash Brother printer (sell/donate)
+- [ ] Destash monitor (sell/donate)
+
 ## Phase 2 — Zone by zone
 
 - [ ] Floor by wardrobe — anything remaining after trash sweep

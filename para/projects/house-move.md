@@ -7,9 +7,10 @@
 - Target date: 2026-04-30
 
 ## Tasks
-- [ ] Return signed deed
+- [x] Return signed deed
+- [ ] Sign and return mortgage deed
 - [ ] Respond to Hatice on insurance
-- [ ] Respond to Erica with furniture details
+- [x] Respond to Erica with furniture details
 - [ ] Exchange contracts
 - [ ] Completion day logistics
 - [ ] Book removal van

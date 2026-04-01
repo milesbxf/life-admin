@@ -39,6 +39,14 @@ Reference for repo maintenance and new machine setup. Not needed for daily use.
     -Xlinker ~/src/github.com/milesbxf/life-admin/tools/apple-events-mcp/src/swift/Info.plist
   ```
 
+### Paperless-ngx
+- Submodule: `tools/paperless-mcp/` → `github.com/milesbxf/paperless-mcp-server` branch `milesbxf-main`
+- Fork of `heimerle/paperless-mcp-server` — 41 tools covering full Paperless API
+- Auth: Token-based — generate from Paperless web UI → My Profile → API Token
+- Env vars: `PAPERLESS_URL` (your https:// domain), `PAPERLESS_TOKEN`
+- Patch: `getDocumentContent` uses `/api/documents/{id}/` instead of `/content/` endpoint (which redirects to login with token auth in Paperless-ngx ≥2.19)
+- To rebuild: `cd tools/paperless-mcp && npm install && npm run build`
+
 ### Spoonacular
 - Package: `spoonacular-mcp@1.0.0` (npm, SHA512-pinned)
 - Free tier: 150 requests/day
@@ -54,5 +62,6 @@ Reference for repo maintenance and new machine setup. Not needed for daily use.
 - [x] WHOOP developer app registered, submodule built, credentials in `.env`
 - [x] Apple Events MCP Swift binary built
 - [x] Spoonacular API key in `.env`
+- [ ] Paperless-ngx URL and API token in `.env`
 - [x] All credentials via `${VAR}` in `.mcp.json` — never committed
 - [x] npm deps SHA512-pinned via `package-lock.json`
