@@ -47,6 +47,11 @@ Reference for repo maintenance and new machine setup. Not needed for daily use.
 - Patch: `getDocumentContent` uses `/api/documents/{id}/` instead of `/content/` endpoint (which redirects to login with token auth in Paperless-ngx ≥2.19)
 - To rebuild: `cd tools/paperless-mcp && npm install && npm run build`
 
+### Excalidraw
+- Package: `excalidraw-mcp-server@2.0.0` (npm)
+- No API key needed. Runs in standalone mode (no canvas server required).
+- Tools: create/update/delete/query elements, batch create, group/align/distribute, export scene, create from Mermaid
+
 ### Spoonacular
 - Package: `spoonacular-mcp@1.0.0` (npm, SHA512-pinned)
 - Free tier: 150 requests/day

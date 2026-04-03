@@ -1,47 +1,81 @@
-# Meal Plan: Week of 2026-03-23
+# Meal Plan: Wed 1 Apr – Mon 7 Apr 2026
 
 ## Targets
-No Cronometer weekly schedule set — using defaults.
-
-## Notes
-- Sunday evening: sauté leeks (prep only — no stock, soup batch cooks Monday)
-- Batch cook soup Monday (after shopping) — covers lunches all week
-- Batch cook stew Monday evening — covers Mon–Wed dinner
-- Thu/Fri dinner TBD
+No Cronometer weekly schedule set — using vegetarian defaults.
+Calories: ~2200 | Protein: ~110g | Carbs: ~250g | Fat: ~75g
 
 ---
 
-## Sunday 2026-03-22
-- **Dinner:** Leftover leek and broccoli risotto ✓
+## Wednesday 2026-04-01
+
+- **Dinner:** Frozen paratha + Paneer Butter Masala sauce + raita
+  - Use 250g paneer. Sauce from Paprika recipe F5AB9FA5-4CC1-41AD-A480-45D5EC392317. Serve with plain yogurt raita.
+  - ~30 min active. Carrots saved for Friday's curry.
 
 ---
 
-## Monday 2026-03-23
-- **Lunch:** Broccoli and Stilton Soup + sourdough ← batch, lasts all week (Paprika: 17D39B4A-7AD7-4F7B-87FF-51D71B8DF0B3)
-  - _Stilton if bought, or Parmesan stirred in + yoghurt swirl to serve_
-- **Dinner:** Cozy Vegetable Stew ← batch, lasts Mon–Wed (Paprika: 3980F7E1-965E-4828-A2E2-A3624984A32F)
-  - _Sub: 1–2 tbsp red wine vinegar + extra stock instead of red wine_
+## Thursday 2026-04-03
 
-## Tuesday 2026-03-24
-- **Lunch:** Broccoli and Stilton Soup + sourdough (leftover)
-- **Dinner:** Cozy Vegetable Stew (leftover)
-
-## Wednesday 2026-03-25
-- **Lunch:** Broccoli and Stilton Soup + sourdough (leftover)
-- **Dinner:** Cozy Vegetable Stew (leftover)
-
-## Thursday 2026-03-26
-- **Lunch:** Broccoli and Stilton Soup + sourdough (leftover)
-- **Dinner:** TBD
-
-## Friday 2026-03-27
-- **Lunch:** Broccoli and Stilton Soup + sourdough (leftover)
-- **Dinner:** TBD
+**Out for dinner — nothing needed.**
 
 ---
 
-## Shopping needed
-- Sourdough
-- Veg stock (for soup + top up for stew — confirmed out)
-- Stilton (for soup)
-- Fresh parsley (optional, for stew)
+## Friday 2026-04-04 — Ocado delivery day
+
+- **Lunch:** Roasted Radish & Ricotta Salad [Paprika: 27CF67E3-0984-4CA6-BBDC-1C01A58F54F4] ← batch, covers Fri + Sat lunch
+  - Roasted radishes with sumac and cardamom, whipped ricotta, pomegranate molasses dressing, rocket, walnuts.
+
+- **Dinner:** Thai Coconut Kaffir Lime Leaf Curry with pre-frozen tofu + carrots ← batch, covers Fri + Sat dinner
+  - Medium-firm tofu (pre-frozen — see tip below), carrots, red bell pepper, snap peas or courgette, Thai red/green curry paste, 2 cans full-fat coconut milk, kaffir lime leaves, soy sauce, coconut sugar. Serve with jasmine rice.
+  - Makes 4 portions.
+  - Reference: use Thai green/red curry method with kaffir lime leaves.
+
+  > **Tofu freezing tip:** Drain, press, and freeze solid overnight before Fri. Thaw, press again. Freezing breaks down the protein structure — creates a spongier, chewier texture with more air pockets that soaks up curry sauce far better and crisps up nicely when pan-fried.
+
+---
+
+## Saturday 2026-04-05
+
+- **Lunch:** Roasted Radish & Ricotta Salad (leftover)
+- **Dinner:** Thai Coconut Lime Leaf Curry with tofu + carrots (leftover)
+
+---
+
+## Sunday 2026-04-06
+
+**Out — nothing needed.**
+
+---
+
+## Monday 2026-04-07 — Prep day
+
+- **Lunch:** Curried Carrot Soup [Paprika: 8FBB4F43-D862-473E-A03E-2B4EE4B5B25F] ← batch, covers Mon + Tue lunch
+  - Serve with sourdough or a roll. Order extra carrots beyond what Friday's curry needs.
+
+- **Dinner:** Mujaddara — Lentils & Rice with Crispy Caramelised Onions ← batch, covers Mon–Thu dinner
+  - Brown/green lentils cooked with basmati rice, heavy on cumin and garlic, topped with deeply caramelised crispy fried onions. Serve with plain yogurt + simple cucumber/tomato salad or flatbread.
+  - Makes 4 portions. High protein, stores well 3–4 days.
+  - Reference: cookieandkate.com/mujaddara-recipe
+
+---
+
+## Cooking sessions
+
+| When | Cook | Covers |
+|------|------|--------|
+| Wednesday evening | Paneer butter masala sauce (30 min) | Wed dinner |
+| Friday lunch | Roasted radish & ricotta salad (30 min) | Fri + Sat lunch |
+| Friday evening | Thai coconut tofu curry (45 min) | Fri + Sat dinner |
+| Monday morning | Curried carrot soup (45 min) | Mon + Tue lunch |
+| Monday evening | Mujaddara (60 min) | Mon – Thu dinner |
+
+---
+
+## Estimated nutrition
+
+| Day | Est. kcal | Est. Protein |
+|-----|-----------|--------------|
+| Wednesday | ~900 (dinner only) | ~38g |
+| Friday | ~2200 | ~68g |
+| Saturday | ~2200 | ~68g |
+| Monday | ~2100 | ~85g |

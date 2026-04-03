@@ -9,6 +9,8 @@
 - [ ] Define financial goals for the year @due(2026-06-01)
 - [ ] Discuss house finances and deposit with Shubheksha and create plan for her financing
 - [ ] Discuss life insurance and income protection quotes with Shubheksha and follow up with Hatice
+- [ ] Pay Beth for dog sitting
+- [ ] Pay cleaner
 
 ## Notes
 - Active projects: house purchase, 2025/26 tax return, annual budget planning
