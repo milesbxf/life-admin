@@ -47,6 +47,6 @@
         "WHOOP_CLIENT_SECRET": "${WHOOP_CLIENT_SECRET}",
         "WHOOP_REDIRECT_URI": "${WHOOP_REDIRECT_URI}"
       }
-    },
+    }
   }
 }

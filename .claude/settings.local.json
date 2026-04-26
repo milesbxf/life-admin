@@ -163,7 +163,9 @@
       "mcp__excalidraw__read_me",
       "Read(//Users/milesbryant/**)",
       "Read(//private/tmp/**)",
-      "WebSearch"
+      "WebSearch",
+      "WebFetch(domain:www.packd.co.uk)",
+      "Bash(mcp-call paprika:*)"
     ]
   },
   "enableAllProjectMcpServers": true,

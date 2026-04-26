@@ -4,3 +4,4 @@ tools/apple-events-mcp/node_modules/
 tools/whoop-mcp/.env
 .env
 .DS_Store
+.claude
