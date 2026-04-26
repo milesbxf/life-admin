@@ -1,3 +1,6 @@
+# Hermes Project Context
+# Working Directory: /Users/milesbryant/src/github.com/milesbxf/life-admin
+
 # life-admin
 
 Personal life admin OS for Miles. Uses Claude slash commands to orchestrate health tracking, meal planning, and task management via MCP integrations. Primarily used via Claude Code on phone.
@@ -55,7 +58,7 @@ DEV.md          Setup, dev environment, MCP server details
 | notion | Notion pages/databases — mainly work (global) |
 | paperless | Paperless-ngx documents — search, upload, tag, retrieve content |
 
-## WHOOP auth (required each new session)
+# [Section removed during Hermes migration]
 
 1. Call `whoop-get-authorization-url` → visit URL → authorise
 2. Copy `code` from redirect URL

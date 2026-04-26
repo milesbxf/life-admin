@@ -1,3 +1,6 @@
+# Hermes Project Context
+# Working Directory: /Users/milesbryant/src/github.com/milesbxf/life-admin
+
 # PARA — Personal knowledge and task system
 
 Uses the PARA method (Projects, Areas, Resources, Archive). Plain markdown, git-tracked. Apple Reminders only for time/location alerts.

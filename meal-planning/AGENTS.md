@@ -1,3 +1,6 @@
+# Hermes Project Context
+# Working Directory: /Users/milesbryant/src/github.com/milesbxf/life-admin
+
 # Meal planning system
 
 Weekly meal plans sourced from Paprika recipes. Nutrition targets from Cronometer. All meals vegetarian.
