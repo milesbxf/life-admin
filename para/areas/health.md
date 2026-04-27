@@ -13,4 +13,5 @@
     13|
 
 ## Log
+- [x] Write up what I need for initial therapy consult @due(2026-03-25)
 - [x] Research therapy options via work private health insurance @due(2026-03-25) @reminder
