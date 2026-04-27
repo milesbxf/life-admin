@@ -13,3 +13,4 @@
     13|
 
 ## Log
+- [x] Research therapy options via work private health insurance @due(2026-03-25) @reminder
