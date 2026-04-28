@@ -15,3 +15,10 @@
 ## Log
 - [x] Write up what I need for initial therapy consult @due(2026-03-25)
 - [x] Research therapy options via work private health insurance @due(2026-03-25) @reminder
+
+## Journal
+### 2026-04-27
+- Recovery: 66% (yellow)
+- Sleep: 5h 48m (78% efficiency)
+- Workouts: Rest day
+- Notes: Sleep duration low (66% of target), despite high efficiency (97.5%). No workouts recorded yesterday.
