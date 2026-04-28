@@ -88,3 +88,18 @@ Final check before move-in day.
 - Phase 3 (May 8-21): Final walkthrough before move-in date
 - Locksmith booking can flex with schedule (not immediately critical on Apr 24)
 - See Packing & Moving for move-in logistics and timeline that depends on May 15 vs 22 decision
+
+
+## Walkthrough Notes
+
+
+### Walkthrough Actions (Discord Threads)
+
+- **Deep clean logistics:** [See thread](https://discord.com/channels/1497988886067019807/1498742714859980811) (Quotes, booking, timing)
+- **Moving logistics:** [See thread](https://discord.com/channels/1497988886067019807/1498742713844893777) (Waiting on recommended mover quote)
+- **Kitchen tap situation:** [See thread](https://discord.com/channels/1497988886067019807/1498742712840448020) (Assess and fix)
+- **Quick Fixes & Annoyances Checklist:** [See thread](https://discord.com/channels/1497988886067019807/1498235556998545511) (Added from walkthrough notes: kitchen deep clean, fridge, microwave, lights, drawer inserts, boiler service, smoke alarm; bathroom holders, mirror, door handles, light switch, portable heater, wall unit, shower curtain; doormat, doorbell setup, hallway lampshade, dining room door handle, wardrobe move; landing lampshade, ensuite storage)
+- **Broken Plug:** [See thread](https://discord.com/channels/1497988886067019807/1498692118825271437) (40mm pull-up plug order still needed)
+- **New Locks:** [See thread](https://discord.com/channels/1497988886067019807/1498697959309574144) (Research matching keysets online)
+- **Internet shenanigans:** [See thread](https://discord.com/channels/1497988886067019807/1498610039777398795) (Review Sky quote, research fibre install)
+
